@@ -1,0 +1,43 @@
+.container{
+  text-align: center;
+  margin-top: 10px;
+}
+
+#color-box{
+ height: 120px;
+ width: 200px;
+ background-color: rgb(93, 237, 232);
+ text-align: center;
+ border-radius: 5px;
+}
+
+.littleContainer{
+  display: flex;
+  justify-content: center;
+}
+
+#change-color-btn {
+  height: 35px;
+  width: 150px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  vertical-align: center;
+  color: rgb(0, 0, 0);
+  font-size:15px;
+}
+
+#change-color-btn a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: large;
+}
+
+
+#change-color-btn:hover {
+  background-color: rgb(169, 165, 165);
+  transform: translateY(-2px);
+  cursor: pointer;
+}
